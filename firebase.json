@@ -4,7 +4,8 @@
     "rewrites": [
       { "source": "/commits", "function": "app" },
       { "source": "/branches", "function": "app" },
-      { "source": "/issues", "function": "app" }
+      { "source": "/issues", "function": "app" },
+      { "source": "/ranking", "function": "app" }
     ],
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
