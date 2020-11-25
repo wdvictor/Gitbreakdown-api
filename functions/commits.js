@@ -10,7 +10,7 @@ let init_weekday = 0
 let sprint_length = 7
 
 commit_route.get = async (req, res ) => {
-
+   
     //verify if exist the necessary parms to send a get request
     const owner = req.query.owner
     const repository = req.query.repository
@@ -86,6 +86,7 @@ commit_route.get = async (req, res ) => {
                 console.log(err)
             })
         } catch (err) {
+          console.log('(SYS) err: ' + err)
             return res.status(500).json(err)
         }
     }
