@@ -15,14 +15,17 @@
  3. Loge-se com seu usuário do firebase
 
 
+		$firebase login
+
+ 4. Faça clone do repositório e inicíe 
+
 		$firebase init
 
-	
 
 	 1. Lembre-se de usar javaScript (e não typeScript)
 	 2. Utili-ze o projeto já criado Git-breakdown-mobile
 	 3. Todas as outras opões default
- 4. E por fim
+ 5. E por fim
 
-		$firebase serve --only functions,hosting
+			$firebase serve --only functions,hosting
 
