@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "public": "public",
+    "rewrites": [{ "source": "/commits", "function": "app" }, { "source": "/branches", "function": "app" }],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
